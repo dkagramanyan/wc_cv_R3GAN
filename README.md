@@ -38,5 +38,5 @@ python train.py --outdir=./training-runs --data=./datasets/o_bc_left_4x_768_360_
 ## Generate
 
 ```
-python gen_images.py --seeds=0-7 --outdir=./generated/00002-o_bc_left_4x_768_360_median_Ultra_Co11_rgb_256x256-gpus8-batch512 --network=./weights/00002-o_bc_left_4x_768_360_median_Ultra_Co11_rgb_256x256-gpus8-batch512/network-snapshot-000053248.pkl
+python gen_images.py --seeds=0-9999 --outdir=./generated/00002-o_bc_left_4x_768_360_median_Ultra_Co11_rgb_256x256-gpus8-batch512_step94208 --network=./weights/00002-o_bc_left_4x_768_360_median_Ultra_Co11_rgb_256x256 -gpus8-batch512/network-snapshot-000094208.pkl
 ```
